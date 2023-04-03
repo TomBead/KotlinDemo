@@ -33,6 +33,11 @@ open class ClassAndFun {
 
     }
 
+    //调用静态的方法
+    open fun test1(message: String) {
+        Utlis.a();
+    }
+
     //有返回值的方法
     fun testReturn(message: String): String {
         return "ssss";

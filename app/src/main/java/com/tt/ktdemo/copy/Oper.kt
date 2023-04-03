@@ -10,6 +10,7 @@ class Oper {
     //}
     fun test1() {
         if ("1" is String) {
+
         }
         if ("2" !is String) {
         }
