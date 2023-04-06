@@ -4,7 +4,9 @@ package com.tt.ktdemo.copy
 /**
  * calss和方法
  */
-//如果没有 open 那么
+//final class Person //final是默认的，自动省略，表示该类不能被继承
+//open class Person // open是需要显示添加的，表示该类可以被继承
+
 open class ClassAndFun {
     // （如果不想暴露成员变量的set方法，可以将 var 改成 val )
     var name: String? = null
